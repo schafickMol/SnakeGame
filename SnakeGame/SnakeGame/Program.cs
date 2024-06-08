@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Media;
+using SnakeGame2;
 using Spectre.Console;
 
 namespace SnakeGame
@@ -10,7 +11,7 @@ namespace SnakeGame
 
         static void Main(string[] args)
         {
-            player = new SoundPlayer("C:\\Users\\chafm\\source\\repos\\SnakeGame2\\SnakeGame2/musica_Menu.wav");
+            player = new SoundPlayer("F:\\UNIVO\\Programación orientada a objetos\\snakegame\\SnakeGame\\SnakeGame\\SnakeGame\\Musica_Menu.wav");
 
             player.PlayLooping();
 
